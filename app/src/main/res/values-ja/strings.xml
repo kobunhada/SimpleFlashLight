@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">只のライト</string>
+
+    <string name="button_sos">SOS</string>
+	<string name="button_otherapps">他の\nアプリ</string>
+	<string name="label_memo">戻るボタン、または、ホームボタンをタップするとアプリが終了します。</string>
+</resources>

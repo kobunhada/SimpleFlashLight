@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="180dip"
+	    android:orientation="vertical"
+	    android:gravity="top|right"
+	    android:layout_weight="1"
+	    >
+    	<Button
+	        android:id="@+id/button_otherapps"
+	        android:layout_width="wrap_content"
+	        android:layout_height="40dip"
+	        android:background="@drawable/image_stateful_sizenormal"
+	        android:gravity="center|center"
+	        android:textSize="12dip"
+			android:textColor="#f8fbf8"
+		    android:text="@string/button_otherapps"
+		    android:layout_marginTop="10dip"
+		    android:layout_marginRight="12dip"
+	        />
+	</LinearLayout>
+
+
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:orientation="vertical"
+	    android:gravity="bottom"
+	    android:layout_weight="0.5"
+	    >
+
+	    <Button
+	        android:id="@+id/button_sos"
+	        android:layout_width="match_parent"
+	        android:layout_height="100dp"
+	        android:background="@drawable/image_stateful"
+	        android:gravity="center|center"
+	        android:textSize="60dip"
+			android:textColor="#f8fbf8"
+			android:paddingLeft="10dip"
+			android:paddingRight="10dip"
+		    android:layout_marginLeft="10dip"
+		    android:layout_marginRight="10dip"
+	        />
+
+		<TextView
+	        android:id="@+id/label_memo"
+		    android:layout_width="fill_parent"
+		    android:layout_height="100dip"
+		    android:layout_marginTop="10dip"
+			android:layout_marginBottom="10dip"
+			android:paddingLeft="20dip"
+			android:paddingRight="20dip"
+		    android:gravity="top|left"
+		    android:textSize="16dip"
+		    android:text="@string/label_memo"
+		    />
+
+	    <Button
+	        android:id="@+id/button_onoff"
+	        android:layout_width="match_parent"
+	        android:layout_height="180dp"
+	        android:background="@drawable/image_stateful"
+	        android:gravity="center|center"
+	        android:textSize="80dip"
+			android:textColor="#f8fbf8"
+			android:paddingLeft="10dip"
+			android:paddingRight="10dip"
+		    android:layout_marginLeft="10dip"
+		    android:layout_marginRight="10dip"
+		    android:layout_marginBottom="10dip"
+	        />
+	</LinearLayout>
+</LinearLayout>
